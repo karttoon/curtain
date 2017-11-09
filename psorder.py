@@ -14,7 +14,7 @@ def charReplace(inputString):
     # Find group of obfuscated string
     obfGroup = re.search("(\"|\')(\{[0-9]{1,2}\})+(\"|\')[ -fF].+?\'.+?\'\)(?!(\"|\'|;))",inputString).group()
 
-    print obfGroup
+    #print obfGroup
 
     # Build index and string lists
     indexList = [int(x) for x in re.findall("\d+", obfGroup.split("-")[0])]

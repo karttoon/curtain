@@ -19,3 +19,5 @@ $ ./curtain.sh test.ps1
 [+] Killing virtual Guest
 [+] Launching site...
 ```
+
+The "psorder.py" takes a B64 encoded chunk of PowerShell and will attempt to manually deobfuscate it. It's handy to combine when it comes to token replacement, etc, that Curtain may reveal.

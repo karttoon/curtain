@@ -21,3 +21,5 @@ $ ./curtain.sh test.ps1
 ```
 
 The "psorder.py" takes a B64 encoded chunk of PowerShell and will attempt to manually deobfuscate it. It's handy to combine when it comes to token replacement, etc, that Curtain may reveal.
+
+This version of Curtain is no longer maintained. Please see the Curtain module for Cuckoo found [HERE](https://github.com/karttoon/curtaincuckoo/).
